@@ -36,9 +36,9 @@
     height: 100vh;
   /*   scroll-snap-align: start; */
     overflow-y: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     font-family: monospace;
     font-size: 3rem;
   /*  backface visibility keeps font from looking weird  */
@@ -47,8 +47,11 @@
   }
   
   section:nth-of-type(1) {
+    text-align: center;
     background: maroon;
     color: #fff;
+    border-style: solid;
+    border-width: 2px;
   }
   
   section:nth-of-type(2) {
@@ -62,6 +65,21 @@
   }
 
   section:nth-of-type(4) {
-    background: purple;
+    background: #0c0c0c;
     color: #fff;
+
   }
+
+input{
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.about{
+
+}
