@@ -80,6 +80,23 @@ input{
   border-radius: 5px;
 }
 
+textarea{
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  border-radius: 5px;
+}
+
 .about{
 
+}
+
+.icon {
+
+  background-color: #bc9864;
+  border-radius: 50%; 
+  display: inline-block;
 }
