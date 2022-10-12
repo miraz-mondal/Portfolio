@@ -132,7 +132,7 @@ textarea{
 
 .icon-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .flex-container > span {
